@@ -6,7 +6,6 @@
         }
  html, body {
  	height: 100%;
- overflow-x: hidden;
  }       
  
  .container {
@@ -108,7 +107,6 @@
 
 
  #shadow{
- 	 background:red;
  	 height:810px; 
  	 width:360px; 
  	 margin-top:-805px;
@@ -123,7 +121,7 @@
  }
  
          /* Hero image*/
- #div-hero img{
+ #hero-img{
  	 animation-name: myAnimation;
  	 animation-iteration-count: infinite;
  	 animation-duration: 10s ;
@@ -138,4 +136,15 @@ transform: rotatez(0deg);
 to{
 transform: rotatez(360deg);
 }
+ }
+ 
+ .service-div:hover {
+ 	background: orange;
+ 	color: #fff !important;
+ }
+ .service-div:hover i{
+ 	color: #fff !important;
+ }
+ .service-div:hover p {
+ 	color: #fff !important;
  }

@@ -5,7 +5,10 @@
 	box-sizing: border-box;
         }
  html, body {
- 	height: 100%;
+ max-width:100%;
+ overflow-x:hidden;
+ scroll-behaviour: smooth;
+ height: 100%
  }       
  
  .container {
@@ -69,7 +72,7 @@
  	 transition: height 1s;
  	 margin-left: 10px;
  	 overflow: hidden;
- 	 z-index: 2;
+ 	 z-index: 10 !important;
  }
  
  #toggle:checked ~ nav {
@@ -109,9 +112,10 @@
  #shadow{
  	 height:810px; 
  	 width:360px; 
- 	 margin-top:-805px;
- 	 position:absolute;                  
+ 	 margin-top:-815px;
+ 	 position:relative;                  
  	 background:rgba(0,0,0,.8);
+ 	
  }
  #shadow h1, p {
  	 color: #fff;
@@ -121,6 +125,12 @@
  }
  
          /* Hero image*/
+ #div-hero{
+ 	 overflow: hidden hidden;
+ 	 border: 2px solid #fff;
+ 
+ }         
+         
  #hero-img{
  	 animation-name: myAnimation;
  	 animation-iteration-count: infinite;
@@ -146,4 +156,92 @@ transform: rotatez(360deg);
  }
  .service-div:hover p {
  	color: #fff !important;
+ }
+ 
+ 
+ .reservation-input {
+ 	width: 80%;
+ 	height: 50px;
+ 	
+ }
+ 
+ .reservation-div {
+ 	line-height: 20px;
+ 	padding-top: 20px;
+ }
+ 
+ #reservation-select {
+ 	width: 80%;
+ 	height: 50px;
+ 	
+ }
+ 
+  #select-label {
+  	color: #000;
+  	margin-left: -170px;
+  	font-weight: 300;
+  }
+  
+  
+ #date-label {
+ 	color: #000;
+ 	margin-left: -250px;
+ 	font-weight: 300;
+ }
+.chef1-div {
+	margin-bottom: 40px;
+}  
+ .chef1-div a i {
+ 	color: #fff;
+ 	background: orange;
+ 	width: 30px;
+ 	height: 50px;
+ 	padding-top:20px;
+ 	border-radius: 50% 50% 0% 0%;
+ }
+ .chef1-div a{
+ 	padding-left: 15px;
+ }
+ 
+ .chef1-div:hover {
+ 	height: 380px !important;
+ 	transition: 1s ease;
+ }
+ .footer-div {
+ 	padding:0px 0px 30px 40px;
+ }
+ .footer-div a {
+ 	display: block;
+ 	color: #fff;
+ 	text-decoration: none;
+ 	line-height: 30px;
+ }
+ 
+ .footer-div p {
+ 	display: inline;
+ 	color: #fff;
+ 	line-height: 30px;
+ }
+ #icons-div a{
+ 	display: inline;
+ 	border-outline: light;
+ 	border: 1px solid #fff;
+ 	border-radius:100%;
+ 	margin-right: 5px;
+ 	
+ }
+ #icons-div a i{
+ 	width:30px;
+ 	height:50px;
+ 	padding-left:10px;
+ }
+ #footer-div-2 a{
+ 	text-decoration: none;
+ 	color: #fff;
+ 	margin-left:10px;
+ }
+ #footer-div-3 a{
+ 	color: #fff;
+ 	text-decoration: none;
+ 	nargin-left: 20px;
  }

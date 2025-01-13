@@ -155,7 +155,11 @@ transform: rotatez(360deg);
 	 padding:10px 10px 10px 20px;                         
 	 box-shadow:0px 10px 20px #ccc; 
 }
-
+ .service-div p{
+ 	 color:#000; 
+ 	 font-weight:100; 
+ 	 display:inline
+ }
  
  .service-div:hover {
  	background: orange;
@@ -204,6 +208,12 @@ transform: rotatez(360deg);
 .chef1-div {
 	margin-bottom: 40px;
 	margin: 0 auto;
+	height:320px;
+	width:80%; 
+	box-shadow:0px 10px 20px #ccc;  
+	justify-self:center; 
+	text-align:center; 
+	overflow-y:hidden;
 }  
  .chef1-div a i {
  	color: #fff;
@@ -252,7 +262,8 @@ transform: rotatez(360deg);
  #footer-div-2 a{
  	text-decoration: none;
  	color: #fff;
- 	margin-left:10px;
+ 	margin: 0 auto;
+ 
  }
  #footer-div-3 a{
  	color: #fff;

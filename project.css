@@ -232,7 +232,7 @@ transform: rotatez(360deg);
  }
  
  .chef1-div:hover {
- 	height: 380px !important;
+ 	height: 380px ;
  	transition: 1s ease;
  }
  .footer-div {

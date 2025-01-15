@@ -275,7 +275,7 @@ transform: rotatez(360deg);
  	nargin-left: 20px;
  }
        /*Media query*/
- @media screen and (min-width: 1025px) and (max-width: 1280px){
+ @media screen and (min-width: 992px){
 	.label-container:{
 		 display: none;
 	}

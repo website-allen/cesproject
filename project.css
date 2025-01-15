@@ -298,14 +298,13 @@ transform: rotatez(360deg);
 	.nav > a {
 		display: inline-block;
 		font-size: 23px;
-		padding-top: 0px;
-  color: red;
-  padding: 0px 0px 10px 0px;
+  color: #fff;
+  padding: 0px 0px 10px 10px;
 	}
 	.chef1-div {
-		height: 320px;
+		height: 450px;
 	}
-	.chef1-div:hover: {
-		height: 500px;
+	.chef1-div:hover {
+		height: 650px;
 	}
 }

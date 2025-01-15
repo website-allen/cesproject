@@ -266,7 +266,7 @@ transform: rotatez(360deg);
  #footer-div-2 a{
  	text-decoration: none;
  	color: #fff;
- 	margin: 0 auto;
+@ 	margin: 0 auto;
  
  }
  #footer-div-3 a{
@@ -275,7 +275,7 @@ transform: rotatez(360deg);
  	nargin-left: 20px;
  }
        /*Media query*/
- @media (min-width: 992px) and (max-width : 1200px)
+ @media screen and (min-width: 992px){
 	.label-container:{
 		 display: none;
 	}
@@ -287,5 +287,8 @@ transform: rotatez(360deg);
 	}
 		#label-2 {
 		display: none;
+	}
+	.nav {
+		height: 20px;
 	}
 }

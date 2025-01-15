@@ -92,7 +92,7 @@
  	 transition: 2s;
  }
  
-  .restoran-h1 {
+  #restoran-h1 {
    	letter-spacing:1px;          
    	background: #11195A;
    	color:orange;
@@ -292,7 +292,6 @@ transform: rotatez(360deg);
 		width: 490px;
 		margin-top: -40px;
 		background: transparent;
-	 border: 1px solid #fff;
 	}
 	
 	.nav > a {
@@ -301,10 +300,17 @@ transform: rotatez(360deg);
   color: #fff;
   padding: 0px 0px 10px 10px;
 	}
+	.nav > a:hover {
+		border-left: 5px solid #fff;
+		padding-top: 8px;
+	}
 	.chef1-div {
 		height: 450px;
 	}
 	.chef1-div:hover {
 		height: 650px;
+	}
+	#team-section {
+		height: 3500px;
 	}
 }

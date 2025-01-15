@@ -311,6 +311,9 @@ transform: rotatez(360deg);
 		height: 650px;
 	}
 	#team-section {
-		height: 5000px;
+		height: 5000px !important;
 	}
+#about-section {
+	height: 1200px !important;
+}
 }

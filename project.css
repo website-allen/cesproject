@@ -266,7 +266,7 @@ transform: rotatez(360deg);
  #footer-div-2 a{
  	text-decoration: none;
  	color: #fff;
-@ 	margin: 0 auto;
+ margin: 0 auto;
  
  }
  #footer-div-3 a{
@@ -274,14 +274,12 @@ transform: rotatez(360deg);
  	text-decoration: none;
  	nargin-left: 20px;
  }
-       /*Media query*/
+       /*Media query-Deskptop*/
  @media only screen and (max-width: 1024px) and (min-width: 768px){
 	.label-container:{
 		 display: none;
 	}
-	#toggle {
-		display: none;
-	}
+
 	#label-1 {
 		display: none;
 	}
@@ -289,6 +287,16 @@ transform: rotatez(360deg);
 		display: none;
 	}
 	.nav {
-		height: 20px;
+		height: 100px;
+		margin-left: 435px;
+		width: 430px;
+		margin-top: -40px;
+	}
+	
+	.nav > a {
+		display: inline-block;
+		font-size: 23px;
+		padding-top: 0px;
+
 	}
 }

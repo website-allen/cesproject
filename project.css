@@ -208,7 +208,7 @@ transform: rotatez(360deg);
 .chef1-div {
 	margin-bottom: 40px;
 	margin: 0 auto;
-	height:23%;
+	height:315px;
 	width:80%; 
 	box-shadow:0px 10px 20px #ccc;  
 	justify-self:center; 
@@ -292,7 +292,7 @@ transform: rotatez(360deg);
 		width: 460px;
 		margin-top: -40px;
 		background: transparent;
-	
+	 border: 1px solid #fff;
 	}
 	
 	.nav > a {
@@ -300,5 +300,12 @@ transform: rotatez(360deg);
 		font-size: 23px;
 		padding-top: 0px;
   color: #fff;
+  padding-bottom: 5px;
+	}
+	.chef1-div {
+		height: 320px;
+	}
+	.chef1-div:hover: {
+		height: 500px;
 	}
 }
